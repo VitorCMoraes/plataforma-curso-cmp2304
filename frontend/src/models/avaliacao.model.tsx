@@ -7,5 +7,5 @@ export interface IAvaliacao {
     curso: ICurso;
     nota: 1 | 2 | 3 | 4 | 5;
     comentario?: string;
-    dataAvaliacao: Date;
+    dataAvaliacao: string;
 }

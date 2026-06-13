@@ -3,8 +3,8 @@ import type { IUsuario } from "./usuario.model";
 
 export interface IMatricula {
     id?: string;
-    dataMatricula: Date;
-    dataConclusao?: Date;
+    dataMatricula: string;
+    dataConclusao?: string;
     usuario: IUsuario;
     curso: ICurso;
 }

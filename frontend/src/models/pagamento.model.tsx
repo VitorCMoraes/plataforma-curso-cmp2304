@@ -6,6 +6,6 @@ export interface IPagamento {
   assinatura: IAssinatura;
   valorPago: IPlano["preco"];
   dataPagamento: string;
-  metodoPagamento: string;
+  metodoPagamento: "cartao" | "pix" | "boleto";
   idTransacaoGateway: string;
 }

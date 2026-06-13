@@ -5,6 +5,6 @@ export interface IProgressoAula {
     id?: string;
     usuario: IUsuario;
     aula: IAula;
-    dataConclusao?: Date;
+    dataConclusao?: string;
     status: "concluido" | "em_progresso" | "nao_iniciado";
 }
