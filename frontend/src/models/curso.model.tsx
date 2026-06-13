@@ -6,7 +6,7 @@ export interface ICurso{
     id?: string;
     titulo: string;
     descricao: string;
-    nivel: "iniciante" | "intermediario" | "avançado";
+    nivel: "iniciante" | "intermediario" | "avancado";
     dataPublicacao: Date;
     totalAulas: number;
     totalHoras: number;

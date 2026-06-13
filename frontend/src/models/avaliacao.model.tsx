@@ -5,7 +5,7 @@ export interface IAvaliacao{
     id?: string;
     usuario: IUsuario;
     curso: ICurso;
-    nota: "1" | "2" | "3" | "4" | "5";
-    comentario: string;
+    nota: 1 | 2 | 3 | 4 | 5;
+    comentario?: string;
     dataAvaliacao: Date;
 }
