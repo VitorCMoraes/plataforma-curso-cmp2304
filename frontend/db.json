@@ -1,0 +1,16 @@
+{
+  "usuarios": [], 
+  "categorias": [], 
+  "cursos": [], 
+  "modulos": [],
+  "aulas": [], 
+  "matriculas": [], 
+  "progresso_aulas": [], 
+  "avaliacoes": [],
+  "trilhas": [], 
+  "trilhas_cursos": [], 
+  "certificados": [],
+  "planos": [], 
+  "assinaturas": [], 
+  "pagamentos": []
+}
