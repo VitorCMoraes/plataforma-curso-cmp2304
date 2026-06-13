@@ -4,6 +4,6 @@ export interface IUsuario {
     email: string;
     perfil: "administrador" | "instrutor" | "aluno";
     senhaHash: string;
-    dataCriacao: Date;
-    dataAlteracao: Date;
+    dataCriacao: string;
+    dataAlteracao: string;
 }

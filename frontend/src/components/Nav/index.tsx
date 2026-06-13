@@ -6,6 +6,10 @@ export const Nav = () => {
             <ul className="nav">
                 <li className="nav-item"><Link className="nav-link text-white" to="/categoria">Categorias</Link></li>
                 <li className="nav-item"><Link className="nav-link text-white" to="/curso">Cursos</Link></li>
+                <li className="nav-item"><Link className="nav-link text-white" to="/plano">Planos</Link></li>
+                <li className="nav-item"><Link className="nav-link text-white" to="/usuario">Usuários</Link></li>
+                <li className="nav-item"><Link className="nav-link text-white" to="/aula">Aulas</Link></li>
+                <li className="nav-item"><Link className="nav-link text-white" to="/modulo">Módulos</Link></li>
             </ul>
         </div>
     );
