@@ -4,9 +4,9 @@ import type { IUsuario } from "./usuario.model";
 
 export interface ICertificado {
   id?: string;
-  usuario: IUsuario;         
-  curso: ICurso;             
-  trilha?: ITrilha;          
-  codigoVerificacao: string; 
+  usuario: IUsuario;
+  curso: ICurso;
+  trilha?: ITrilha;
+  codigoVerificacao: string;
   dataEmissao: string;
 }

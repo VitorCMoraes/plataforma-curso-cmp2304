@@ -1,6 +1,6 @@
 import type { IAula } from "./aula.model";
 
-export interface IModulo{
+export interface IModulo {
     id?: string;
     titulo: string;
     ordem: number;

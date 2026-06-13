@@ -4,7 +4,7 @@ import type { IUsuario } from "./usuario.model";
 export interface IAssinatura {
   id?: string;
   usuario: IUsuario;
-  plano: IPlano;    
+  plano: IPlano;
   dataInicio: string;
   dataFim: string;
 }

@@ -1,7 +1,7 @@
 import type { ICurso } from "./curso.model";
 import type { IUsuario } from "./usuario.model";
 
-export interface IMatricula{
+export interface IMatricula {
     id?: string;
     dataMatricula: Date;
     dataConclusao?: Date;

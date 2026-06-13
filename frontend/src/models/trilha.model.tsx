@@ -1,6 +1,6 @@
 import type { ICategoria } from "./categoria.model";
 
-export interface ITrilha{
+export interface ITrilha {
     id?: string;
     titulo: string;
     descricao: string;

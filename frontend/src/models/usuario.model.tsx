@@ -1,5 +1,5 @@
-export interface IUsuario{
-    id? : string;
+export interface IUsuario {
+    id?: string;
     nome: string;
     email: string;
     perfil: "administrador" | "instrutor" | "aluno";

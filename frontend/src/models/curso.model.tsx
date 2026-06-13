@@ -2,7 +2,7 @@ import type { ICategoria } from "./categoria.model";
 import type { IModulo } from "./modulo.model";
 import type { IUsuario } from "./usuario.model";
 
-export interface ICurso{
+export interface ICurso {
     id?: string;
     titulo: string;
     descricao: string;
